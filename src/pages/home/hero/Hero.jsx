@@ -20,7 +20,7 @@ const Hero = () => {
         transition={{duration: 0.85 , ease: "easeInOut"}}
     >
         
-        <RootLayout className="absolute top-20 left-0 w-full h-full py-[9ch] bg-gradient-to-b from-neutral-50/70 via-neutral-50/15 to-neutral-50/5 flex items-center justify-start text-center flex-col gap-9">
+        <RootLayout className="absolute top-0 left-0 w-full h-full py-[9ch] bg-gradient-to-b from-neutral-50/70 via-neutral-50/15 to-neutral-50/5 flex items-center justify-start text-center flex-col gap-9">
             {/* title section */}
             <div className="space-y-2">
                 

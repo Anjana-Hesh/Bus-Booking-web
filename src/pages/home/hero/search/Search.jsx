@@ -17,7 +17,7 @@ const Search = () => {
             <div className="w-[60%] flex items-center gap-5 relative">
 
                 {/* From */}
-                <div className="w-1/2 h-10 border border-neutral-300 bg-white/70 text-base text-neutral-700 font-medium px-10 flex items-center gap-x-5 rounded-lg">
+                <div className="w-1/2 h-14 border border-neutral-300 bg-white/70 text-base text-neutral-700 font-medium px-10 flex items-center gap-x-5 rounded-lg">
                     <input type="text" placeholder='From ...' className="flex-1 h-full border-none bg-transparent focus:outline-none" />
                     <div className="w-6 h-6 text-neutral-400">
                         <FaMapMarkedAlt className='w-full h-full' />
@@ -25,7 +25,7 @@ const Search = () => {
                 </div>
 
                 {/* To */}
-                <div className="w-1/2 h-10 border border-neutral-300 bg-white/70 text-base text-neutral-700 font-medium px-10 flex items-center gap-x-5 rounded-lg">
+                <div className="w-1/2 h-14 border border-neutral-300 bg-white/70 text-base text-neutral-700 font-medium px-10 flex items-center gap-x-5 rounded-lg">
                     <input type="text" placeholder='To ...' className="flex-1 h-full border-none bg-transparent focus:outline-none" />
                     <div className="w-6 h-6 text-neutral-400">
                         <FaMapMarkedAlt className='w-full h-full' />
@@ -34,7 +34,7 @@ const Search = () => {
 
                 {/* Exchange button */}
                 <button className="absolute w-8 h-8 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full flex items-center justify-center bg-red-700 z-10">
-                    <TbArrowsExchange className='w-4 h-4 text-neutral-50' />
+                    <TbArrowsExchange className='w-full h-full text-neutral-50' />
                 </button>
 
             </div>
@@ -43,7 +43,7 @@ const Search = () => {
             <div className="flex-1 h-14 flex items-center gap-5">
 
                 {/* date */}
-                <div className="flex-1 h-10 border border-neutral-300 bg-white-70 text-base text-neutral-700 font-medium px-5 flex items-center gap-x-1 rounded-lg">
+                <div className="flex-1 h-14 border border-neutral-300 bg-white-70 text-base text-neutral-700 font-medium px-5 flex items-center gap-x-1 rounded-lg">
                     <input type="date" className="flex-1 h-full border-none bg-transparent focus:outline-none" />
                 </div>
 
