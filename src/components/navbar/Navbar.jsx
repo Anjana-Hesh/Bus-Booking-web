@@ -82,9 +82,9 @@ const Navbar = () => {
                     </ul>
                     {/* button */}
                     <div className="flex items-center justify-center">
-                        <div className="btn md:w-fit w-full md:px-4 px-6 md:py-1 py-2 5 bg-red-500 border hover:bg-transparent border-red-500 hover:border-red-500 md:rounded-full rounded-xl text-base font-normal text-neutral-50 hover:text-red-500 ease-in-out duration-300">
+                        <button className="btn md:w-fit w-full md:px-4 px-6 md:py-1 py-2 5 bg-red-500 border hover:bg-transparent border-red-500 hover:border-red-500 md:rounded-full rounded-xl text-base font-normal text-neutral-50 hover:text-red-500 ease-in-out duration-300">
                             Sign In
-                        </div>
+                        </button>
                     </div>
                 </div>
             </div>
