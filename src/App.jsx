@@ -4,6 +4,7 @@ import Home from "./pages/home/Home"
 import About from "./pages/about/About"
 import Footer from "./components/footer/Footer"
 import Tickets from "./pages/ticket/Tickets"
+import Detail from "./pages/ticket/detail/Detail"
 function App() {
 
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/" element={<Home />}/>
             <Route path="/about" element={<About />}/>
             <Route path="/bus-ticket" element={<Tickets />}/>
+            <Route path="/bus-ticket/detail" element={<Detail />}/>
           </Routes>
 
           {/* Footer */}
