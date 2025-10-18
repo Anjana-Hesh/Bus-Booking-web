@@ -2,6 +2,7 @@ import React from 'react'
 import TopLayout from '../../../layouts/topPage/TopLayout'
 import RootLayout from '../../../layouts/rootLayout'
 import PassangerData from './passangerdata/PassangerData'
+import BookingStatus from './bookingstatus/BookingStatus'
 
 const Checkout = () => {
 
@@ -21,6 +22,7 @@ const Checkout = () => {
                     <PassangerData />
 
                     {/* Ticket report status */}
+                    <BookingStatus />
 
                 </div>
             </RootLayout>
