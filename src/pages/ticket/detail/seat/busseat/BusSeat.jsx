@@ -271,7 +271,7 @@ const BusSeat = () => {
                     {
                         selectedSeat.length > 0 
                         ?
-                        <Link to="/bus-tickets/checkout" className='w-full bg-red-600 hover:bg-red-600/90 text-sm text-neutral-50 font-normal py-2.5 flex items-center justify-center rounded-lg transition'>
+                        <Link to="/bus-ticket/checkout" className='w-full bg-red-600 hover:bg-red-600/90 text-sm text-neutral-50 font-normal py-2.5 flex items-center justify-center rounded-lg transition'>
                             Proceed to checkout
                         </Link>
                         :
