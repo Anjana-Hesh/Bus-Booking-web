@@ -7,12 +7,13 @@ A modern, fully-functional bus ticket booking platform built with **React** and 
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.x-38bdf8.svg)
 ![Status](https://img.shields.io/badge/status-completed-success.svg)
 
-![Top of Home Page](../bus_tikets_booking/screenshots/image-1.png)
-![Bottom of Home Page](../bus_tikets_booking/screenshots/image-2.png)
-![Ticket Page](../bus_tikets_booking/screenshots/image-3.png)
-![Top of Reserve Ticket Page](../bus_tikets_booking/screenshots/image-4.png)
-![Bottom of Reserve Ticket Page](../bus_tikets_booking/screenshots/image-5.png)
-![Checkout Page](../bus_tikets_booking/screenshots/image-6.png)
+![Top of Home Page](/screenshots/image-1.png)
+![Bottom of Home Page](/screenshots/image-2.png)
+![Ticket Page](/screenshots/image-3.png)
+![Top of Reserve Ticket Page](/screenshots/image-4.png)
+![Bottom of Reserve Ticket Page](/screenshots/image-5.png)
+![Checkout Page](/screenshots/image-6.png)
+![The Ticket with QR](/screenshots/image-6.png)
 
 
 ---
@@ -284,12 +285,12 @@ http://localhost:3000
 
 *(Add screenshots of your application here)*
 
-- Home Page
-- Search Results
-- Seat Selection
-- Booking Form
-- Ticket View
-- My Bookings Dashboard
+- Top of Home Page
+- Bottom of Home Page
+- Ticket Page
+- Top of Reserve Ticket Page
+- Bottom of Reserve Ticket Page
+- Checkout Page
 
 ---
 
@@ -342,7 +343,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Anjana Hesh**
 
 - GitHub: [@Anjana-Hesh](https://github.com/Anjana-Hesh)
-- Email: your.email@example.com
+- Email: anjanaheshan676@gmail.com
 
 ---
 
@@ -359,7 +360,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For issues or questions:
 - Open an issue on GitHub
-- Email: support@busbooking.com
+- Email: anjanaheshan676@gmail.com
 
 ---
 
@@ -367,6 +368,6 @@ For issues or questions:
 
 **⭐ Star this repo if you find it helpful!**
 
-Made with ❤️ by Anjana Hesh
+Made with ❤️ by Anjana Heshan
 
 </div>
