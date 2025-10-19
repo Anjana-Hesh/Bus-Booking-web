@@ -13,7 +13,7 @@ A modern, fully-functional bus ticket booking platform built with **React** and 
 ![Top of Reserve Ticket Page](/screenshots/image-4.png)
 ![Bottom of Reserve Ticket Page](/screenshots/image-5.png)
 ![Checkout Page](/screenshots/image-6.png)
-![The Ticket with QR](/screenshots/image-6.png)
+![The Ticket with QR](/screenshots/image-7.png)
 
 
 ---
