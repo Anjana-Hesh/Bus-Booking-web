@@ -7,6 +7,9 @@ import Tickets from "./pages/ticket/Tickets"
 import Detail from "./pages/ticket/detail/Detail"
 import Checkout from "./pages/ticket/checkout/Checkout"
 import Invoice from "./pages/ticket/invoice/Invoice"
+import SignIn from "./pages/signIn/SignInPage"
+import Services from "./pages/service/ServiceMain"
+import SignUp from "./pages/signUp/SignUpPage"
 function App() {
 
   return (
@@ -21,10 +24,13 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />}/>
             <Route path="/about" element={<About />}/>
+            <Route path="/services" element={<Services />} />
             <Route path="/bus-ticket" element={<Tickets />}/>
             <Route path="/bus-ticket/checkout" element={<Checkout />}/>
             <Route path="/bus-ticket/payment" element={<Invoice />}/>
             <Route path="/bus-ticket/detail" element={<Detail />}/>
+            <Route path="/signIn" element={<SignIn />} />
+            <Route path="/signUp" element={<SignUp />} />
           </Routes>
 
           {/* Footer */}
