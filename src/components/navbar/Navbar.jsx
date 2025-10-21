@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { FaBars } from "react-icons/fa";
 import { FaX } from 'react-icons/fa6';
 
@@ -15,6 +15,7 @@ const Navbar = () => {
         {label: "Services" , link: "/services"},
         {label: "Tickets" , link: "/bus-ticket"},
         {label: "About" , link: "/about"},
+        // {label: "SignIn" , link: "/signIn"}
      ]
 
      // Handle click open
@@ -50,6 +51,12 @@ const Navbar = () => {
         }
     } , [scrollPosition])
 
+    const navigate = useNavigate();
+
+    const handleSignInClick = () => {
+        navigate('/signIn');
+    }
+
     return (
         <nav className={`w-full h-[8ch] fixed top-0 left-0 lg:px-16 sm:px-7 px-4 backdrop-blur-lg transition-transform duration-300 z-50 ${isVisible ? "translate-y-0" : "-translate-y-full"} ${scrollPosition > 50 ? "bg-violet-500" : "bg-neutral-100/10"}`}>
             <div className="w-full h-full flex items-center justify-between">
@@ -82,7 +89,9 @@ const Navbar = () => {
                     </ul>
                     {/* button */}
                     <div className="flex items-center justify-center">
-                        <button className="btn md:w-fit w-full md:px-4 px-6 md:py-1 py-2 5 bg-red-500 border hover:bg-transparent border-red-500 hover:border-red-500 md:rounded-full rounded-xl text-base font-normal text-neutral-50 hover:text-red-500 ease-in-out duration-300">
+                        <button
+                            onClick={handleSignInClick}
+                            className="btn md:w-fit w-full md:px-4 px-6 md:py-1 py-2 5 bg-red-500 border hover:bg-transparent border-red-500 hover:border-red-500 md:rounded-full rounded-xl text-base font-normal text-neutral-50 hover:text-red-500 ease-in-out duration-300">
                             Sign In
                         </button>
                     </div>
